@@ -1,0 +1,53 @@
+Vite Powered => Reuse Vite's config and plugins - consistent across your app and tests. But it's not required to use Vitest!
+
+Jest Compatible
+
+Smart & instant watch mode => 
+Only rerun the related changes, just like HMR for tests!
+
+ESM, TypeScript, JSX => 
+Out-of-box ESM, TypeScript and JSX support powered by esbuild.
+
+
+Component testing
+
+
+Minimum Requirements
+Vitest 1.0 requires Vite 5.0 and Node.js 18 or higher.
+
+
+Jest is a testing framework for JavaScript.
+Jest is built on top of Jasmine, another JavaScript testing framework.
+Jest provides some features that are not present in Jasmine, such as native support for mocking.
+
+snapshot - o compare the output of two different tests
+
+Vitest is a JavaScript unit testing framework. It was created to complement Vite, a tool for helping to manage and build JavaScript-based Web applications.
+
+
+Vitest is similar to Jest,  but its main distinguishing characteristic is speed and (when used in conjunction with Vite) simplicity.
+
+Automated E2E testing, which involves opening a browser, navigating to web pages, and interacting with web elements, can be slow because these tests rely heavily on the network.
+
+if you introduce frequent changes to your application's UI, writing automated E2E tests that rely on the UI components can be futile and inefficient because you'll have to redo your automation. Moreover, you shouldn't automate tests that aren't deterministic (i.e., testing a Captcha) because your automation code needs predictable results to produce a pass-fail condition.
+
+
+https://saucelabs.com/resources/blog/vitest-vs-jest-comparison
+
+https://saucelabs.com/resources/blog/creating-a-test-automation-strategy
+
+https://saucelabs.com/resources/blog/creating-a-test-automation-strategy
+
+https://saucelabs.com/resources/blog/automated-functional-testing-an-introduction-to-efficient-software-testing
+
+
+
+
+
+https://github.com/tinylibs/tinyspy
+
+
+https://2022.stateofjs.com/en-US/libraries/testing/
+
+
+https://stackblitz.com/
